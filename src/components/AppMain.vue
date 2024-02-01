@@ -1,11 +1,24 @@
 <script>
 export default {
-  name: "AppFooter"
+  name: "AppMain"
 };
 </script>
 
 <template>
-  <h1>Ciao</h1>
+  <main>
+    <div class="container">
+      <h2>--Content goes here--</h2>
+    </div>
+  </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+main {
+  background-color: black;
+  height: calc(100vh - 470px);
+}
+
+h2 {
+  margin: 0;
+}
+</style>

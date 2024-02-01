@@ -80,6 +80,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-shrink: 0;
 }
 
 ul {
@@ -101,7 +102,7 @@ img {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 </style>
