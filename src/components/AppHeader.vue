@@ -77,8 +77,8 @@ export default {
 // @use "../assets/style.scss" as *;
 
 nav {
-  height: 70px;
-  padding: 2rem 0;
+  min-height: 70px;
+  padding: 0.8rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -96,7 +96,7 @@ a {
   color: black;
   text-transform: uppercase;
   font-weight: bolder;
-  font-size: 0.8rem;
+  font-size: 12px;
 }
 
 img {

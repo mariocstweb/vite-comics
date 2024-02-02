@@ -18,7 +18,7 @@ export default {
 
 <template>
   <AppHeader />
-  <AppMain />
+  <AppMain :series="_items" />
   <AppFooter />
 </template>
   
