@@ -73,7 +73,9 @@ export default {
   </header>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+// @use "../assets/style.scss" as *;
+
 nav {
   height: 70px;
   padding: 2rem 0;
@@ -94,6 +96,7 @@ a {
   color: black;
   text-transform: uppercase;
   font-weight: bolder;
+  font-size: 0.8rem;
 }
 
 img {

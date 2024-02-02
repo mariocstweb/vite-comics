@@ -151,11 +151,16 @@ footer {
   max-height: 400px;
 }
 
+footer li {
+  margin: 6px 0;
+  font-size: 0.8rem;
+}
+
 .footer-top {
 
   gap: 20px;
   background-image: url(../assets/img/footer-bg.jpg);
-  height: 100%;
+  height: 400px;
 
 }
 
@@ -166,7 +171,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
+  color: grey;
   text-align: start;
 }
 

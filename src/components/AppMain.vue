@@ -15,7 +15,8 @@ export default {
 <style scoped>
 main {
   background-color: black;
-  height: calc(100vh - 470px);
+  height: calc(100vh - 550px);
+  display: flex;
 }
 
 h2 {
