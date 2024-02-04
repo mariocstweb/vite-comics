@@ -22,11 +22,14 @@ export default {
 
 <style lang="scss" scoped>
 .series-card {
+  height: 260px;
+  margin-bottom: 60px;
 
   img {
     max-width: 100%;
-    height: auto;
-    margin-bottom: 10px
+    height: 100%;
+    margin-bottom: 10px;
+    object-fit: cover
   }
 
   ;
