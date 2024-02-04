@@ -16,7 +16,8 @@ export default {
     <div class="jumbotron">
       <img src="../assets/img/jumbotron.jpg" alt="">
     </div>
-    <div class="container">
+    <div>
+      <button class="series-btn">CURRENT SERIES</button>
       <div class="card-container">
         <MainContent v-for="serie in series" :thumb="serie.thumb" :series="serie.series" />
       </div>
@@ -30,8 +31,7 @@ export default {
 <style leng="scss" scoped>
 main {
   background-color: #1C1C1C;
-
-
+  position: relative;
 }
 
 .jumbotron {
@@ -45,9 +45,17 @@ main {
   }
 }
 
-.container {
-  /* display: flex;
-  justify-content: center; */
+.series-btn {
+  background-color: #0282F9;
+  padding: 10px 30px;
+  border: 0;
+  color: white;
+  font-weight: bolder;
+  position: absolute;
+
+  top: 31.8%;
+  left: 24%;
+  transform: translate(-50%, -50%);
 }
 
 h2 {
@@ -77,7 +85,6 @@ h2 {
     padding: 10px 30px;
     border: 0;
     color: white;
-    text-align: center;
     margin-bottom: 30px;
   }
 }

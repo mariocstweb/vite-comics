@@ -136,6 +136,8 @@ export default {
 .flex {
   display: flex;
   gap: 20px;
+  padding-top: 30px;
+
 }
 
 .flex2 {
