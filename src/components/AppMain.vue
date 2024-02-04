@@ -53,7 +53,7 @@ main {
   font-weight: bolder;
   position: absolute;
 
-  top: 31.8%;
+  top: 34.5%;
   left: 24%;
   transform: translate(-50%, -50%);
 }
